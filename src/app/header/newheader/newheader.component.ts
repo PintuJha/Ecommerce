@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 declare var newmenu : any;
+declare var searchdata : any;
 @Component({
   selector: 'app-newheader',
   templateUrl: './newheader.component.html',
@@ -13,6 +14,7 @@ export class NewheaderComponent implements OnInit {
 
   ngOnInit(): void {
     newmenu(); 
+    searchdata();
   }
 
 }
