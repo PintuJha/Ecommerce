@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery' 
 declare var newmenu : any;
 declare var searchdata : any;
 @Component({
@@ -15,6 +16,19 @@ export class NewheaderComponent implements OnInit {
   ngOnInit(): void {
     newmenu(); 
     searchdata();
+   
   }
+
+
+
+  onMouseEnterHandler () {
+		$(".ghjgdf").removeClass("show-now1");
+    }
+
+  changeclass(){
+		$(".category").addClass("show-now2");
+	 }
+
+
 
 }

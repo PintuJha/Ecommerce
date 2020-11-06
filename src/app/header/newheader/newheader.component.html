@@ -205,20 +205,11 @@
                                             </ul> -->
                                         </li>
                                         <li class="mega_items"><a href="javascript:void(0)">shop<i class="fa fa-angle-down"></i></a> 
-                                            <div class="mega_menu">
-                                                <ul class="mega_menu_inner">
-                                                    <!-- <li><a href="#">Shop Layouts</a>
-                                                        <ul>
-                                                            <li><a href="shop-fullwidth.html">Full Width</a></li>
-                                                            <li><a href="shop-fullwidth-list.html">Full Width list</a></li>
-                                                            <li><a href="shop-right-sidebar.html">Right Sidebar </a></li>
-                                                            <li><a href="shop-right-sidebar-list.html"> Right Sidebar list</a></li>
-                                                            <li><a href="shop-list.html">List View</a></li>
-                                                        </ul>
-                                                    </li> -->
+                                            <div class="mega_menu click_manu">
+                                                <ul class="mega_menu_inner category"  (click)="changeclass()">
                                                     <li><a href="javascript:void(0)">other Pages</a>
-                                                        <ul class="">
-                                                            <li ><a routerLink="./cart">cart</a></li>
+                                                        <ul  class="ghjgdf"> 
+                                                            <li ><a routerLink="./cart" (click)="onMouseEnterHandler()">cart</a></li>
                                                             <li><a routerLink="./wishlist">Wishlist</a></li>
                                                             <li><a routerLink="./checkout">Checkout</a></li>
                                                             <li><a routerLink="./myaccount">My Account</a></li>

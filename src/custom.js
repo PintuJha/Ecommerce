@@ -838,12 +838,6 @@ function listgrid(){
 
  /*--- niceSelect---*/
  $('.select_option').niceSelect();
-
-
-
-
-
-
 }
 
 
@@ -854,7 +848,24 @@ function searchdata(){
       $('.dropdown_search').slideToggle('medium');
   }); 
   
+  $('.mini_cart_wrapper > a').on('click', function(event){
+    if($(window).width() < 991){
+        $('.mini_cart').slideToggle('medium');
+    }
+}); 
+
+
+
 }
+
+
+
+
+
+
+
+
+
 
 
 
