@@ -3,7 +3,7 @@
 /*06. newsletter area css here*/
 .newsletter_area {
 	background: #f9f9f9;
-	padding: 35px 0;
+	padding: 30px 0;
   }
   
   @media only screen and (max-width: 767px) {
@@ -17,6 +17,10 @@
 	line-height: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
+	margin-bottom: 0;
+  }
+  .newsletter_desc p {
+
 	margin-bottom: 0;
   }
   
@@ -165,7 +169,7 @@
 	  margin: 0px;
   }
   .footer_top {
-	padding: 91px 0 96px;
+	padding: 55px 0px;
 	border-bottom: 1px solid rgba(239, 239, 239, 0.07);
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -242,12 +246,17 @@
 	font-size: 14px;
 	line-height: 20px;
 	color: #fff;
+	text-decoration: none;
 	text-transform: capitalize;
 	opacity: 0.5;
   }
   .footer_menu ul li a:hover {
 	opacity: 1;
 	padding-left: 10px;
+  }
+  .footer_social ul{
+	  margin: 0px;
+	  padding: 0px;
   }
   @media only screen and (max-width: 767px) {
 	.footer_menu ul li a {
@@ -402,6 +411,7 @@
   .footer_link_menu ul li a {
 	font-size: 14px;
 	line-height: 14px;
+	text-decoration: none !important;
 	display: inline-block;
 	color: #fff;
   }
@@ -434,7 +444,7 @@
   }
   
   .footer_bottom {
-	padding: 30px 0;
+	padding: 9px 0;
   }
   @media only screen and (max-width: 767px) {
 	.footer_bottom {
@@ -463,6 +473,17 @@
 	}
   }
   
+  .footer_link_menu ul{
+	  padding: 0px;
+	  margin: 0px;
+  }
+    
+  .footer_link_menu ul li a{
+	text-decoration: none;
+}
+.copyright_area p{
+	margin: 0px;
+}
   /*home two css here*/
   .color_two .footer_social ul li a:hover {
 	color: #e97810;

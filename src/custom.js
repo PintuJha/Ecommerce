@@ -741,7 +741,7 @@ $('.canvas_close,.off_canvars_overlay').on('click', function(){
 /*---Off Canvas Menu---*/
 var $offcanvasNav = $('.offcanvas_main_menu'),
   $offcanvasNavSubMenu = $offcanvasNav.find('.sub-menu');
-$offcanvasNavSubMenu.parent().prepend('<span class="menu-expand"><i class="fa fa-angle-down"></i></span>');
+$offcanvasNavSubMenu.parent().prepend('<span class="menu-expand" style="position: absolute; right:0px;"><i class="fa fa-angle-down"></i></span>');
 
 $offcanvasNavSubMenu.slideUp();
 
