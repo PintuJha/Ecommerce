@@ -840,7 +840,6 @@ function listgrid(){
  $('.select_option').niceSelect();
 }
 
-
 function searchdata(){
     /*---search account slideToggle---*/
     $(".search_list > a").on("click", function() {
@@ -857,7 +856,6 @@ function searchdata(){
 
 
 }
-
 
 function zoom(){
 
@@ -1014,7 +1012,6 @@ function zoom(){
 
 }
 
-
 function testimonial(){
   jQuery(document).ready( function ($) {
 
@@ -1082,6 +1079,24 @@ function testimonial(){
     });
 }
 
+function topbtn(){
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+}
 
 
 
