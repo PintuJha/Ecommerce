@@ -9,10 +9,13 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { MyaccountComponent } from './myaccount/myaccount.component';
 import { FaqComponent } from './faq/faq.component';
 import { LoginComponent } from './login/login.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { ErrorComponent } from './error/error.component';
 
 const routes: Routes = [
-  {path:'', component:HomeComponent},
+  // {path:'', component:HomeComponent},
+  {path:'', component:LoginComponent},
   {path:'home', component:HomeComponent},
   {path:'productdetails', component:ProductdetailsComponent},
   {path:'productlist', component:ProductlistComponent},
@@ -22,6 +25,8 @@ const routes: Routes = [
   {path:'myaccount', component:MyaccountComponent},
   {path:'login', component:LoginComponent},
   {path:'faq', component:FaqComponent},
+  {path:'contact', component:ContactComponent},
+  {path:'about', component:AboutComponent},
 
 
 

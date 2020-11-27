@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 declare var listgrid : any;
 declare var productslider : any;
+declare var pricerange : any;
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
@@ -13,6 +14,7 @@ export class ListComponent implements OnInit {
   ngOnInit(): void {
     listgrid();
     productslider();
+    pricerange();
   }
 
 }

@@ -1,0 +1,116 @@
+/* 15. contact page css here */
+/*contact page css end*/
+.contact_area {
+	margin-bottom: 60px;
+}
+.contact_message {
+	h3 {
+		font-size: 21px;
+		text-transform: capitalize;
+		font-weight: 500;
+		line-height: 20px;
+		margin-bottom: 25px;
+	}
+	p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	ul {
+		li {
+			padding: 13px 0;
+			border-top: 1px solid #ededed;
+			&:last-child {
+				padding-bottom: 0;
+			}
+			i {
+				margin-right: 10px;
+			}
+			a {
+				&:hover {
+					color: #fe3737;
+				}
+			}
+		}
+	}
+	label {
+		line-height: 18px;
+		font-weight: 500;
+		margin-bottom: 10px;
+	}
+	input {
+		border: 1px solid #ededed;
+		height: 45px;
+		background: #ffffff;
+		width: 100%;
+		padding: 0 20px;
+		color: #757575;
+	}
+	textarea {
+		height: 170px;
+		border: 1px solid #ededed;
+		background: #ffffff;
+		resize: none;
+		margin-bottom: 20px;
+		width: 100%;
+		padding: 10px 20px;
+		color: #232323;
+	}
+	button {
+		font-weight: 400;
+		height: 42px;
+		line-height: 42px;
+		padding: 0 30px;
+		text-transform: capitalize;
+		border: none;
+		background: #232323;
+		color: #ffffff;
+		cursor: pointer;
+		-webkit-transition: 0.3s;
+		transition: 0.3s;
+		border-radius: 4px;
+		&:hover {
+			background: #fe3737;
+		}
+	}
+}
+.contact_message.form {
+	p.form-messege {
+		margin-bottom: 0;
+	}
+}
+.contact_map {
+	margin-bottom: 55px;
+}
+.map-area {
+	#googleMap {
+		height: 460px;
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.contact_message {
+		h3 {
+			margin-bottom: 20px;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.contact_message {
+		h3 {
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+		textarea {
+			height: 120px;
+		}
+	}
+	.contact_message.content {
+		margin-bottom: 50px;
+	}
+	.map-area {
+		#googleMap {
+			height: 340px;
+		}
+	}
+}

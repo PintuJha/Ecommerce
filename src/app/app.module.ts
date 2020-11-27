@@ -24,6 +24,8 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { MyaccountComponent } from './myaccount/myaccount.component';
 import { LoginComponent } from './login/login.component';
 import { FaqComponent } from './faq/faq.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import { FaqComponent } from './faq/faq.component';
     CheckoutComponent,
     MyaccountComponent,
     LoginComponent,
-    FaqComponent
+    FaqComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
