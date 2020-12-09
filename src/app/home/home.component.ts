@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 declare var slider : any;
+declare var testimonial : any;
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,6 +12,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     slider();
+    testimonial();
   }
 
 }

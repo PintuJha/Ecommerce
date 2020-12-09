@@ -198,7 +198,7 @@
                             <div class="main_menu">
                                 <nav>
                                     <ul>
-                                        <li><a class="active" routerLink="./home">home</a></li>
+                                        <li><a class="active" routerLink="/home">home</a></li>
                                         <li><a routerLink="/about"> About us</a></li>
                                         <li class="mega_items"><a>shop<i class="fa fa-angle-down"></i></a>
                                             <div class="mega_menu">
@@ -281,24 +281,24 @@
                                     </div>
                                 </div>
                                 <div class="header_account_list">
-                                    <a href="javascript:void(0)"><i class="fa fa-heart"></i>
+                                    <a routerLink="/wishlist"><i class="fa fa-heart"></i>
                                         <span class="item_count">3</span>
                                     </a>
                                 </div>
                                 <div class="header_account_list  mini_cart_wrapper">
                                     <a href="javascript:void(0)"><i class="fa fa-shopping-bag"></i>
-                                        <span class="item_count">3</span>
+                                        <span class="item_count">2</span>
                                     </a>
                                     <!--mini cart-->
                                     <div class="mini_cart">
                                         <div class="cart_gallery">
                                             <div class="cart_item">
                                                 <div class="cart_img">
-                                                    <a><img src="assets/img/product.jpg" alt=""></a>
+                                                    <a><img src="assets/img/product.jpg" alt="" style="width: 65px;"></a>
                                                 </div>
                                                 <div class="cart_info">
                                                     <a>Juicy Couture Tricot</a>
-                                                    <p>1 x <span> Rs 30.00 </span></p>
+                                                    <p>1 x <span> <i class="fa fa-rupee"></i> 39.00 </span></p>
                                                 </div>
                                                 <div class="cart_remove">
                                                     <a><i class="ion-ios-close-outline"></i></a>
@@ -306,11 +306,11 @@
                                             </div>
                                             <div class="cart_item">
                                                 <div class="cart_img">
-                                                    <a><img src="assets/img/product.jpg" alt=""></a>
+                                                    <a><img src="assets/img/product.jpg" alt="" style="width: 65px;"></a>
                                                 </div>
                                                 <div class="cart_info">
                                                     <a>Juicy Couture Juicy</a>
-                                                    <p>1 x <span> Rs 29.00 </span></p>
+                                                    <p>2 x <span> <i class="fa fa-rupee"></i> 99.00 </span></p>
                                                 </div>
                                                 <div class="cart_remove">
                                                     <a><i class="ion-ios-close-outline"></i></a>
@@ -321,20 +321,21 @@
                                             <div class="cart_table_border">
                                                 <div class="cart_total">
                                                     <span>Sub total:</span>
-                                                    <span class="price">Rs 125.00</span>
+                                                    <span class="price"><i class="fa fa-rupee"></i> 620.00</span>
                                                 </div>
                                                 <div class="cart_total mt-10">
                                                     <span>total:</span>
-                                                    <span class="price">Rs 125.00</span>
+                                                    <span class="price"><i class="fa fa-rupee"></i> 950.00</span>
                                                 </div>
                                             </div>
                                         </div>
+                                       
                                         <div class="mini_cart_footer">
                                             <div class="cart_button">
-                                                <a routerLink="./cart"><i class="fa fa-shopping-cart"></i> View cart</a>
+                                                <a routerLink="/cart"><i class="fa fa-shopping-cart"></i> View cart</a>
                                             </div>
                                             <div class="cart_button">
-                                                <a routerLink="./checkout"><i class="fa fa-sign-in"></i> Checkout</a>
+                                                <a routerLink="/checkout"><i class="fa fa-sign-in"></i> Checkout</a>
                                             </div>
 
                                         </div>

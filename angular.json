@@ -33,6 +33,7 @@
               "node_modules/font-awesome/less/font-awesome.less",
               "node_modules/xzoom/dist/xzoom.css",
               "node_modules/magnific-popup/dist/magnific-popup.css",
+              // "node_modules/slick-slider/slick/slick.less",
               "src/styles.less"
              
             ],
@@ -43,6 +44,7 @@
               "node_modules/xzoom/dist/xzoom.min.js",
               "node_modules/hammerjs/src/hammer.js",
               "node_modules/magnific-popup/dist/magnific-popup.js",
+              // "node_modules/slick-slider/slick/slick.min.js",
               "src/custom.js"
 
             ]

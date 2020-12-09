@@ -1,5 +1,56 @@
 /* 16. faq page css here */
 /*faq page css end*/
+.breadcrumbs_area {
+	padding: 100px 0;
+	background: url(../../assets/img/banner20.jpg);
+	margin-bottom: 60px;
+}
+.breadcrumb_content {
+	text-align: center;
+	h3 {
+		font-size: 36px;
+		line-height: 36px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	ul {
+		li {
+			display: inline-block;
+			text-transform: capitalize;
+			font-size: 16px;
+			line-height: 20px;
+			margin-right: 3px;
+			padding-right: 13px;
+			position: relative;
+			color: #fe3737;
+			&::before {
+				position: absolute;
+				content: "/";
+				right: 0;
+				top: 50%;
+				transform: translatey(-50%);
+			}
+			&:last-child {
+				margin-right: 0;
+				&::before {
+					display: none;
+				}
+			}
+			a {
+				color: #333;
+				&:hover {
+					color: #fe3737;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
 .faq_content_area {
 	padding-bottom: 52px;
 }
